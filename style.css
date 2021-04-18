@@ -1,0 +1,62 @@
+body {
+    padding: 20px;
+    background-color: black;
+}
+
+#gridContainer {
+    padding-bottom: 10px;
+}
+
+table {
+    background-color: black;
+    border-spacing: 0;
+}
+td {
+    border: 1px solid #111;
+    width: 10px;
+    height: 10px;
+}
+
+td.live{
+  background-color:white;
+}
+td.dead{
+  background-color:black;
+}
+#start{
+  position: absolute;
+  top: 20%;
+  left:70%;
+}
+#stop{
+  position: absolute;
+  top: 20%;
+  left:76%;
+}
+button{
+  padding: 15px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+#speed{
+  position: absolute;
+  top: 22%;
+  left:60%;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+}
+#genCounter{
+  position: absolute;
+  top: 10%;
+  left:60%;
+  color: white;
+  background-color: black;
+  font-size: 200%;
+}
