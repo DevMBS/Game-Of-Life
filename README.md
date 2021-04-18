@@ -1,3 +1,3 @@
-# Game-Of-Life
+# Game Of Life
 ## My implementation of Conway's Game Of Life on JavaScript
 ![screenshot](gol.png)
